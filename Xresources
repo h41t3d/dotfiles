@@ -1,0 +1,62 @@
+URxvt.font: xft:monaco:size=16:
+URxvt.scrollBar: false
+! special
+*.foreground:   #c0c5ce
+*.background:   #2b303b
+*.cursorColor:  #c0c5ce
+
+! black
+*.color0:       #2b303b
+*.color8:       #65737e
+
+! red
+*.color1:       #bf616a
+*.color9:       #bf616a
+
+! green
+*.color2:       #a3be8c
+*.color10:      #a3be8c
+
+! yellow
+*.color3:       #ebcb8b
+*.color11:      #ebcb8b
+
+! blue
+*.color4:       #8fa1b3
+*.color12:      #8fa1b3
+
+! magenta
+*.color5:       #b48ead
+*.color13:      #b48ead
+
+! cyan
+*.color6:       #96b5b4
+*.color14:      #96b5b4
+
+! white
+*.color7:       #c0c5ce
+*.color15:      #eff1f5
+
+
+
+! === URxvt ===
+
+! Extensions
+URxvt*perl-ext-common:          default,matcher,vtwheel,clipboard
+! Looks
+URxvt*font:                     xft:inconsolatazi4:size=18 
+URxvt*scrollBar:                false
+URxvt.internalBorder:           10
+! Clickable urls
+!URxvt.url-select.underline:     true
+URxvt.url-launcher:             /usr/bin/firefox
+URxvt.matcher.button:           1
+! Change keybinding for copy/paste
+URxvt*iso14755:                 false
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.letterSpace:              -1
+URxvt.lineSpace:                2
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
